@@ -1,0 +1,19 @@
+{
+  "name": "directiv-test-helpers",
+  "version": "0.1.0",
+  "description": "test helpers for directiv modules",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=test ./node_modules/.bin/mocha"
+  },
+  "keywords": [
+    "directiv"
+  ],
+  "author": "Cameron Bytheway <bytheway.cameron@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "directiv-core-map": "^0.1.1",
+    "performance-now": "^0.1.4",
+    "should": "^4.0.4"
+  }
+}
